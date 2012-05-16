@@ -1,1 +1,11 @@
 A selection of Chef scripts that I find useful. No warranties etc. 
+
+chefrecentupdates 
+ - Quickly parse the Chef run log to get the resources updated recently, in chronological order. 
+
+ e.g. 
+
+ 1 resources updated in /var/log/chef/client.log-20120505.gz:
+ [Fri, 04 May 2012 17:49:42 +0000] INFO:  cookbook_file[/usr/bin/gist]
+
+
